@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(225, 247, 61, 0.808);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#password {
+    width: 350px;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: rgb(163, 241, 85);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#password:focus {
+    outline: none;
+}
